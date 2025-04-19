@@ -1,3 +1,9 @@
 #!/bin/bash
 
-git log --oneline --color=always | fzf --ansi --preview="git show --color=always {1}"
+git log \
+    --oneline \
+    --color=always |
+    fzf \
+        --ansi \
+        --layout=reverse-list \
+        --preview="git show --color=always {1}"
