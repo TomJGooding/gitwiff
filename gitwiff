@@ -7,4 +7,5 @@ git log \
         --ansi \
         --no-sort \
         --layout=reverse-list \
-        --preview="git show --color=always {1}"
+        --preview="git show --color=always {1}" \
+        --style=minimal
