@@ -5,5 +5,6 @@ git log \
     --color=always |
     fzf \
         --ansi \
+        --no-sort \
         --layout=reverse-list \
         --preview="git show --color=always {1}"
